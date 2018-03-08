@@ -83,6 +83,12 @@
 		<Unit filename="/Users/kazuki/CLionProjects/hello_world/main.cpp">
 			<Option target="hello_world"/>
 		</Unit>
+		<Unit filename="/Users/kazuki/CLionProjects/hello_world/test_class.cpp">
+			<Option target="hello_world"/>
+		</Unit>
+		<Unit filename="/Users/kazuki/CLionProjects/hello_world/test_class.h">
+			<Option target="hello_world"/>
+		</Unit>
 		<Unit filename="/Users/kazuki/CLionProjects/hello_world/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

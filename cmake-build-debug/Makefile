@@ -150,6 +150,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+test_class.o: test_class.cpp.o
+
+.PHONY : test_class.o
+
+# target to build an object file
+test_class.cpp.o:
+	$(MAKE) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/test_class.cpp.o
+.PHONY : test_class.cpp.o
+
+test_class.i: test_class.cpp.i
+
+.PHONY : test_class.i
+
+# target to preprocess a source file
+test_class.cpp.i:
+	$(MAKE) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/test_class.cpp.i
+.PHONY : test_class.cpp.i
+
+test_class.s: test_class.cpp.s
+
+.PHONY : test_class.s
+
+# target to generate assembly for a file
+test_class.cpp.s:
+	$(MAKE) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/test_class.cpp.s
+.PHONY : test_class.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... test_class.o"
+	@echo "... test_class.i"
+	@echo "... test_class.s"
 .PHONY : help
 
 
